@@ -1,2 +1,17 @@
-# The-Self-Pruning-Neural-Network
-Built a self-pruning neural network where each weight has a learnable gate that decides its importance during training. Using an L1 sparsity penalty, the model automatically removes unnecessary connections, balancing accuracy and efficiency. Demonstrates trade-offs between model performance and sparsity on CIFAR-10.
+# Self-Pruning Neural Network
+
+A PyTorch implementation of a neural network that learns to prune its own weights during training using learnable gates and L1 sparsity regularization.
+
+## Features
+- Custom PrunableLinear layer
+- L1-based sparsity loss
+- CIFAR-10 training
+- Sparsity vs accuracy analysis
+
+## Run
+pip install -r requirements.txt  
+python train.py
+
+## Output
+- results/metrics.csv
+- results/plots/

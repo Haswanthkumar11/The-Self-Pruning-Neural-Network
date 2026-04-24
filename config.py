@@ -1,0 +1,7 @@
+BATCH_SIZE = 64
+EPOCHS = 5
+LR = 1e-3
+
+LAMBDAS = [1e-3, 1e-2, 1e-1]
+
+SPARSITY_THRESHOLD = 1e-2

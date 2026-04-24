@@ -1,0 +1,6 @@
+As we are using python for this task these are the required and necessary extendsions for the code to work.
+
+torch
+torchvision
+matplotlib
+numpy
